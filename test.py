@@ -118,6 +118,7 @@ def test(data,
             print(out)
             print("train_out:")
             print(train_out)
+            return
             t0 += time_synchronized() - t
 
             # Compute loss
